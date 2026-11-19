@@ -36,7 +36,7 @@ class BankAccount {
     void withdraw(double amount) {
         //VALIDATION 1: Check if amount is positive
         if (amount <= 0) {
-            cout << "Error; ithdraal amount must be graeter than 0." << endl;
+            cout << "Error: withdrawal amount must be greater than 0." << endl;
             return; //Exit the function early
         }
 
@@ -75,5 +75,5 @@ int main() {
     aliceAccount.displayBalance();
 
     return 0;
-    
+
 }
